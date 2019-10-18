@@ -1,0 +1,11 @@
+/root/Desktop/gr-xillybus/gr-xillybus/build/lib/CMakeFiles/test-xillybus.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/swig/CMakeFiles/pygen_swig_2e2bf.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/python/CMakeFiles/pygen_python_2a7f3.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/CMakeFiles/uninstall.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/swig/CMakeFiles/_xillybus_swig_swig_tag.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/swig/CMakeFiles/_xillybus_swig_doc_tag.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/swig/CMakeFiles/_xillybus_swig.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/lib/CMakeFiles/gnuradio-xillybus.dir
+/root/Desktop/gr-xillybus/gr-xillybus/build/swig/CMakeFiles/xillybus_swig_swig_doc.dir

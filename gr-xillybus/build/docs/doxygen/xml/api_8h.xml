@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="api_8h" kind="file">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="xilly__read__32_8h" local="no">xilly_read_32.h</includedby>
+    <includedby refid="xilly__write__32_8h" local="no">xilly_write_32.h</includedby>
+    <incdepgraph>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>xilly_write_32.h</label>
+        <link refid="xilly__write__32_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>xilly_read_32_impl.h</label>
+        <link refid="xilly__read__32__impl_8h"/>
+      </node>
+      <node id="6">
+        <label>xilly_write_32_impl.h</label>
+        <link refid="xilly__write__32__impl_8h"/>
+      </node>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>xilly_read_32.h</label>
+        <link refid="xilly__read__32_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a82f762801a0d276c20502c23f53880c1" prot="public" static="no">
+        <name>XILLYBUS_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/Desktop/gr-xillybus/gr-xillybus/include/xillybus/api.h" line="30" bodyfile="/root/Desktop/gr-xillybus/gr-xillybus/include/xillybus/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/Desktop/gr-xillybus/gr-xillybus/include/xillybus/api.h"/>
+  </compounddef>
+</doxygen>

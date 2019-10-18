@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared  -o _xillybus_swig.so CMakeFiles/_xillybus_swig.dir/xillybus_swigPYTHON_wrap.cxx.o -lpython2.7 ../lib/libgnuradio-xillybus.so -lboost_filesystem-mt -lboost_system-mt /usr/local/lib/libgnuradio-runtime.so /usr/local/lib/libgnuradio-pmt.so -Wl,-rpath,/root/Desktop/gr-xillybus/gr-xillybus/build/lib:/usr/local/lib: 

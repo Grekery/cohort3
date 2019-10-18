@@ -1,0 +1,109 @@
+/* -*- c++ -*- */
+/* 
+ * Copyright 1970 <+YOU OR YOUR COMPANY+>.
+ * 
+ * This is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3, or (at your option)
+ * any later version.
+ * 
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this software; see the file COPYING.  If not, write to
+ * the Free Software Foundation, Inc., 51 Franklin Street,
+ * Boston, MA 02110-1301, USA.
+ */
+
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
+
+#include <gnuradio/io_signature.h>
+#include "xilly_read_32_impl.h"
+
+/* Ali */
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int fdr;
+/* *** */
+namespace gr {
+  namespace xillybus {
+
+    xilly_read_32::sptr
+    xilly_read_32::make()
+    {
+      fdr = open("/dev/xillybus_read_32", O_RDONLY);
+      if (fdr < 0) {
+        printf("Failed to open read_32");
+      }
+      return gnuradio::get_initial_sptr
+        (new xilly_read_32_impl());
+    }
+
+    /*
+     * The private constructor
+     */
+    xilly_read_32_impl::xilly_read_32_impl()
+      : gr::block("xilly_read_32",
+              gr::io_signature::make(0, 0, 0),
+              gr::io_signature::make(1, 1, sizeof(float)))
+    {}
+
+    /*
+     * Our virtual destructor.
+     */
+    xilly_read_32_impl::~xilly_read_32_impl()
+    {
+    }
+
+    void
+    xilly_read_32_impl::forecast (int noutput_items, gr_vector_int &ninput_items_required)
+    {
+        /* <+forecast+> e.g. ninput_items_required[0] = noutput_items */
+    }
+
+    int
+    xilly_read_32_impl::general_work (int noutput_items,
+                       gr_vector_int &ninput_items,
+                       gr_vector_const_void_star &input_items,
+                       gr_vector_void_star &output_items)
+    {
+        unsigned char *out = (unsigned char *) output_items[0];
+
+	int rc;	
+
+	rc = read(fdr, out, noutput_items);
+																																															
+        if ((rc < 0) && (errno == EINTR))
+          ;
+    
+        if (rc < 0) {
+          printf("allread() failed to read");
+        }
+    
+        if (rc == 0) {
+          printf("Reached read EOF.\n");
+        }
+        // Do <+signal processing+>
+        // Tell runtime system how many input items we consumed on
+        // each input stream.
+        consume_each (noutput_items);
+
+        // Tell runtime system how many output items we produced.
+//printf("number of bytes(r) = %d, nout = %d\n", rc, noutput_items);
+        return rc/4;
+    }
+
+  } /* namespace xillybus */
+} /* namespace gr */
+

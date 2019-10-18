@@ -1,0 +1,11 @@
+<block>
+  <name>Xilly read 32</name>
+  <key>xillybus_xilly_read_32</key>
+  <category>XILLYBUS</category>
+  <import>import xillybus</import>
+  <make>xillybus.xilly_read_32()</make>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

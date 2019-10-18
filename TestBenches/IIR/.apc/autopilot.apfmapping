@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="iir.c" path="C:\Users\Alireza\Desktop\Capston\IIR\iir.c"/>
+    <originFiles name="iir.h" path="C:\Users\Alireza\Desktop\Capston\IIR\iir.h"/>
+  </source>
+  <testbench>
+    <originFiles name="main.c" path="C:\Users\Alireza\Desktop\Capston\IIR\main.c"/>
+    <originFiles name="iir_in.dat" path="C:\Users\Alireza\Desktop\Capston\IIR\iir_in.dat"/>
+    <originFiles name="iir_out.dat" path="C:\Users\Alireza\Desktop\Capston\IIR\iir_out.dat"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

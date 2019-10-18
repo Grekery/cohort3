@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="volk.c" path="C:\Users\Alireza\Desktop\Capston\VOLK\volk.c"/>
+    <originFiles name="volk.h" path="C:\Users\Alireza\Desktop\Capston\VOLK\volk.h"/>
+  </source>
+  <testbench>
+    <originFiles name="main.c" path="C:\Users\Alireza\Desktop\Capston\VOLK\main.c"/>
+    <originFiles name="volk_in_i.txt" path="C:\Users\Alireza\Desktop\Capston\VOLK\volk_in_i.txt"/>
+    <originFiles name="volk_in_r.txt" path="C:\Users\Alireza\Desktop\Capston\VOLK\volk_in_r.txt"/>
+    <originFiles name="volk_out_i.txt" path="C:\Users\Alireza\Desktop\Capston\VOLK\volk_out_i.txt"/>
+    <originFiles name="volk_out_r.txt" path="C:\Users\Alireza\Desktop\Capston\VOLK\volk_out_r.txt"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

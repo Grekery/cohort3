@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/FIR/solution1/csim.tcl&quot; line 8)" projectName="FIR" solutionName="solution1" date="2015-05-28T17:21:22.350-0700"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="FIR" solutionName="solution1" date="2015-05-28T17:21:22.304-0700"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/FIR/solution1/csim.tcl&quot; line 8)" projectName="FIR" solutionName="solution1" date="2015-05-28T17:19:59.603-0700"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="FIR" solutionName="solution1" date="2015-05-28T17:19:59.559-0700"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/FIR/solution1/csim.tcl&quot; line 8)" projectName="FIR" solutionName="solution1" date="2015-05-28T17:19:14.868-0700"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="FIR" solutionName="solution1" date="2015-05-28T17:19:14.822-0700"/>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/FIR/solution1/csim.tcl&quot; line 8)" projectName="FIR" solutionName="solution1" date="2015-05-28T17:18:00.116-0700"/>
+        <logs message="@E [APCC-1] APCC failed." projectName="FIR" solutionName="solution1" date="2015-05-28T17:17:59.998-0700"/>
+        <logs message="@E [APCC-1] ProcessSources failed" projectName="FIR" solutionName="solution1" date="2015-05-28T17:17:59.988-0700"/>
+        <logs message="@E [APCC-1-1] clang compile failed: child process exited abnormally" projectName="FIR" solutionName="solution1" date="2015-05-28T17:17:59.974-0700"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

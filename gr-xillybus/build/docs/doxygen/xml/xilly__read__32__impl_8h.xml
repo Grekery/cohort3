@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="xilly__read__32__impl_8h" kind="file">
+    <compoundname>xilly_read_32_impl.h</compoundname>
+    <includes refid="xilly__read__32_8h" local="no">xillybus/xilly_read_32.h</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>xilly_read_32_impl.h</label>
+        <link refid="xilly_read_32_impl.h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>xillybus/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="18">
+        <label>xillybus/xilly_read_32.h</label>
+        <link refid="xilly__read__32_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1xillybus_1_1xilly__read__32__impl" prot="public">gr::xillybus::xilly_read_32_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1xillybus">gr::xillybus</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/Desktop/gr-xillybus/gr-xillybus/lib/xilly_read_32_impl.h"/>
+  </compounddef>
+</doxygen>

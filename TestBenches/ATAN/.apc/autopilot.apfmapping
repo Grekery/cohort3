@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="atan.c" path="C:\Users\Alireza\Desktop\Capston\ATAN\atan.c"/>
+    <originFiles name="atan.h" path="C:\Users\Alireza\Desktop\Capston\ATAN\atan.h"/>
+  </source>
+  <testbench>
+    <originFiles name="atan_imag.txt" path="C:\Users\Alireza\Desktop\Capston\ATAN\atan_imag.txt"/>
+    <originFiles name="atan_out.txt" path="C:\Users\Alireza\Desktop\Capston\ATAN\atan_out.txt"/>
+    <originFiles name="atan_real.txt" path="C:\Users\Alireza\Desktop\Capston\ATAN\atan_real.txt"/>
+    <originFiles name="main.c" path="C:\Users\Alireza\Desktop\Capston\ATAN\main.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

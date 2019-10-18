@@ -1,0 +1,19 @@
+Go to the "gnuradio" folder, then
+  mkdir build/
+  cd build/
+
+Configure gnuradio by typing
+  ccmake ..
+
+To build and install the whole project:
+  make
+  sudo make install
+
+To build only the IIO blocks:
+  make -C gr-iio
+  sudo make -C gr-iio install
+
+If you wish to install the IIO blocks for a version of gnuradio installed with
+a package from the distribution, you have to install them in /usr. For this,
+the gnuradio tree must be configured to install in /usr:
+  ccmake -DCMAKE_INSTALL_PREFIX=/usr ..

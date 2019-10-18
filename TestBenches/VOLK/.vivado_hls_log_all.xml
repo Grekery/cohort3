@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/VOLK/solution1/csim.tcl&quot; line 8)" projectName="VOLK" solutionName="solution1" date="2015-05-30T16:31:10.987-0700"/>
+        <logs message="@E Simulation failed." projectName="VOLK" solutionName="solution1" date="2015-05-30T16:31:10.961-0700"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

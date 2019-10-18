@@ -1,0 +1,12 @@
+   Compiling(apcc) ../../../main.c in debug mode
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2013.4/bin/unwrapped/win64.o/apcc.exe'
+            for user 'Alireza' on host 'wes-server' (Windows NT_amd64 version 6.1) on Thu May 28 19:44:46 -0700 2015
+            in directory 'C:/Users/Alireza/Desktop/Capston/ATAN/solution1/csim/build'
+clang: warning: c:/Xilinx/Vivado_HLS/2013.4/bin/unwrapped/win64.o/apcc.exe: 'linker' input unused when '-c' is present
+gcc.exe: warning: c:/Xilinx/Vivado_HLS/2013.4/bin/unwrapped/win64.o/apcc.exe: linker input file unused because linking not done
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Generating csim.exe
+@I [SIM-1] CSim done with 0 errors.

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/IIR/solution1/csim.tcl&quot; line 8)" projectName="IIR" solutionName="solution1" date="2015-05-28T15:00:11.975-0700"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="IIR" solutionName="solution1" date="2015-05-28T15:00:11.929-0700"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/IIR/solution1/csim.tcl&quot; line 8)" projectName="IIR" solutionName="solution1" date="2015-05-28T14:59:09.077-0700"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="IIR" solutionName="solution1" date="2015-05-28T14:59:09.031-0700"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/IIR/solution1/csim.tcl&quot; line 8)" projectName="IIR" solutionName="solution1" date="2015-05-28T14:58:33.503-0700"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="IIR" solutionName="solution1" date="2015-05-28T14:58:33.459-0700"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/IIR/solution1/csim.tcl&quot; line 8)" projectName="IIR" solutionName="solution1" date="2015-05-28T14:58:14.827-0700"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="IIR" solutionName="solution1" date="2015-05-28T14:58:14.781-0700"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/IIR/solution1/csim.tcl&quot; line 8)" projectName="IIR" solutionName="solution1" date="2015-05-28T14:57:25.964-0700"/>
+        <logs message="@E Simulation failed." projectName="IIR" solutionName="solution1" date="2015-05-28T14:57:25.918-0700"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/IIR/solution1/csim.tcl&quot; line 8)" projectName="IIR" solutionName="solution1" date="2015-05-28T14:56:46.880-0700"/>
+        <logs message="@E Simulation failed." projectName="IIR" solutionName="solution1" date="2015-05-28T14:56:46.835-0700"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xD;&#xA;&#xD;&#xA;    while executing&#xD;&#xA;&quot;csim_design -quiet&quot;&#xD;&#xA;    (file &quot;C:/Users/Alireza/Desktop/Capston/IIR/solution1/csim.tcl&quot; line 8)" projectName="IIR" solutionName="solution1" date="2015-05-28T14:50:21.589-0700"/>
+        <logs message="@E Simulation failed." projectName="IIR" solutionName="solution1" date="2015-05-28T14:50:21.563-0700"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

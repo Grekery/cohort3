@@ -1,0 +1,302 @@
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'C:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'npandit' on host 'npandit' (Windows NT_amd64 version 6.1) on Sat May 30 15:45:41 -0700 2015
+            in directory 'C:/docs/ucsd/ryankastner/xilinx/april24'
+@I [HLS-10] Opening project 'C:/docs/ucsd/ryankastner/xilinx/april24/gnutest'.
+@I [HLS-10] Opening solution 'C:/docs/ucsd/ryankastner/xilinx/april24/gnutest/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+   Compiling(apcc) ../../../../testbench.c in debug mode
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'npandit' on host 'npandit' (Windows NT_amd64 version 6.1) on Sat May 30 15:46:02 -0700 2015
+            in directory 'C:/docs/ucsd/ryankastner/xilinx/april24/gnutest/solution1/csim/build'
+clang: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: 'linker' input unused when '-c' is present
+clang: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: 'linker' input unused when '-c' is present
+gcc.exe: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: linker input file unused because linking not done
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Compiling(apcc) ../../../../fast_atan2f.c in debug mode
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'npandit' on host 'npandit' (Windows NT_amd64 version 6.1) on Sat May 30 15:46:34 -0700 2015
+            in directory 'C:/docs/ucsd/ryankastner/xilinx/april24/gnutest/solution1/csim/build'
+clang: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: 'linker' input unused when '-c' is present
+clang: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: 'linker' input unused when '-c' is present
+gcc.exe: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: linker input file unused because linking not done
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Compiling(apcc) ../../../../gnutest.c in debug mode
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe'
+            for user 'npandit' on host 'npandit' (Windows NT_amd64 version 6.1) on Sat May 30 15:46:48 -0700 2015
+            in directory 'C:/docs/ucsd/ryankastner/xilinx/april24/gnutest/solution1/csim/build'
+clang: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: 'linker' input unused when '-c' is present
+clang: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: 'linker' input unused when '-c' is present
+gcc.exe: warning: c:/Xilinx/Vivado_HLS/2014.1/bin/unwrapped/win64.o/apcc.exe: linker input file unused because linking not done
+@I [APCC-3] Tmp directory is apcc_db
+@I [APCC-1] APCC is done.
+@I [LIC-101] Checked in feature [VIVADO_HLS]
+   Generating csim.exe
+0, my output=0.000000, ref
+1, my output=0.000000, ref
+2, my output=0.000000, ref
+3, my output=0.000000, ref
+4, my output=0.000000, ref
+5, my output=-0.000000, ref
+6, my output=-0.000000, ref
+7, my output=-0.000000, ref
+8, my output=-0.000000, ref
+9, my output=-0.000000, ref
+10, my output=0.000000, ref
+11, my output=0.000001, ref
+12, my output=0.000000, ref
+13, my output=0.000000, ref
+14, my output=-0.000000, ref
+15, my output=0.000000, ref
+16, my output=0.000000, ref
+17, my output=0.000001, ref
+18, my output=0.000000, ref
+19, my output=-0.000000, ref
+20, my output=0.000001, ref
+21, my output=0.000000, ref
+22, my output=0.000002, ref
+23, my output=-0.000001, ref
+24, my output=0.000002, ref
+25, my output=-0.000002, ref
+26, my output=0.000002, ref
+27, my output=-0.000003, ref
+28, my output=0.000002, ref
+29, my output=-0.000002, ref
+30, my output=0.000003, ref
+31, my output=-0.000000, ref
+32, my output=0.000002, ref
+33, my output=0.000002, ref
+34, my output=0.000000, ref
+35, my output=0.000004, ref
+36, my output=-0.000004, ref
+37, my output=0.000007, ref
+38, my output=0.000001, ref
+39, my output=-0.000521, ref
+40, my output=-0.001546, ref
+41, my output=-0.001746, ref
+42, my output=-0.001886, ref
+43, my output=-0.002642, ref
+44, my output=-0.002535, ref
+45, my output=-0.001313, ref
+46, my output=-0.000919, ref
+47, my output=-0.000682, ref
+48, my output=-0.001006, ref
+49, my output=-0.003432, ref
+50, my output=-0.002568, ref
+51, my output=0.000315, ref
+52, my output=0.000650, ref
+53, my output=0.000796, ref
+54, my output=0.000736, ref
+55, my output=-0.001006, ref
+56, my output=-0.002809, ref
+57, my output=-0.002588, ref
+58, my output=-0.002395, ref
+59, my output=-0.004109, ref
+60, my output=-0.004447, ref
+61, my output=-0.003026, ref
+62, my output=-0.003776, ref
+63, my output=-0.004491, ref
+64, my output=-0.003780, ref
+65, my output=-0.003630, ref
+66, my output=-0.004222, ref
+67, my output=-0.005413, ref
+68, my output=-0.005981, ref
+69, my output=-0.007270, ref
+70, my output=-0.008755, ref
+71, my output=-0.008918, ref
+72, my output=-0.008833, ref
+73, my output=-0.007516, ref
+74, my output=-0.005313, ref
+75, my output=-0.006091, ref
+76, my output=-0.010542, ref
+77, my output=-0.013879, ref
+78, my output=-0.012108, ref
+79, my output=-0.009599, ref
+80, my output=-0.010369, ref
+81, my output=-0.009270, ref
+82, my output=-0.006104, ref
+83, my output=-0.004807, ref
+84, my output=-0.004337, ref
+85, my output=-0.005198, ref
+86, my output=-0.007831, ref
+87, my output=-0.009377, ref
+88, my output=-0.008422, ref
+89, my output=-0.007099, ref
+90, my output=-0.007203, ref
+91, my output=-0.006281, ref
+92, my output=-0.005036, ref
+93, my output=-0.004794, ref
+94, my output=-0.003800, ref
+95, my output=-0.003550, ref
+96, my output=-0.003050, ref
+97, my output=-0.002596, ref
+98, my output=-0.003705, ref
+99, my output=-0.003052, ref
+100, my output=-0.002029, ref
+101, my output=-0.002128, ref
+102, my output=-0.001890, ref
+103, my output=-0.001716, ref
+104, my output=-0.001363, ref
+105, my output=-0.001157, ref
+106, my output=-0.000681, ref
+107, my output=-0.000524, ref
+108, my output=-0.000799, ref
+109, my output=-0.000591, ref
+110, my output=-0.000031, ref
+111, my output=0.001482, ref
+112, my output=0.001962, ref
+113, my output=0.001914, ref
+114, my output=0.003532, ref
+115, my output=0.005747, ref
+116, my output=0.007374, ref
+117, my output=0.007409, ref
+118, my output=0.006376, ref
+119, my output=0.005431, ref
+120, my output=0.007655, ref
+121, my output=0.011072, ref
+122, my output=0.011309, ref
+123, my output=0.011421, ref
+124, my output=0.010947, ref
+125, my output=0.011071, ref
+126, my output=0.013565, ref
+127, my output=0.013852, ref
+128, my output=0.012645, ref
+129, my output=0.013114, ref
+130, my output=0.012880, ref
+131, my output=0.009996, ref
+132, my output=0.010825, ref
+133, my output=0.014501, ref
+134, my output=0.014140, ref
+135, my output=0.011649, ref
+136, my output=0.010391, ref
+137, my output=0.010568, ref
+138, my output=0.008770, ref
+139, my output=0.005153, ref
+140, my output=0.001829, ref
+141, my output=-0.001164, ref
+142, my output=-0.003636, ref
+143, my output=-0.005168, ref
+144, my output=-0.005323, ref
+145, my output=-0.002639, ref
+146, my output=0.000492, ref
+147, my output=0.001157, ref
+148, my output=0.001427, ref
+149, my output=0.000569, ref
+150, my output=0.000537, ref
+151, my output=0.000909, ref
+152, my output=0.001307, ref
+153, my output=0.001719, ref
+154, my output=0.000325, ref
+155, my output=-0.000340, ref
+156, my output=0.000051, ref
+157, my output=0.000187, ref
+158, my output=-0.000426, ref
+159, my output=-0.000070, ref
+160, my output=0.000024, ref
+161, my output=-0.000202, ref
+162, my output=-0.000262, ref
+163, my output=-0.000843, ref
+164, my output=-0.000344, ref
+165, my output=-0.000235, ref
+166, my output=-0.000503, ref
+167, my output=-0.001211, ref
+168, my output=-0.002211, ref
+169, my output=-0.001834, ref
+170, my output=-0.000375, ref
+171, my output=-0.000068, ref
+172, my output=-0.001443, ref
+173, my output=-0.000227, ref
+174, my output=0.001410, ref
+175, my output=0.002050, ref
+176, my output=0.004223, ref
+177, my output=0.005987, ref
+178, my output=0.006898, ref
+179, my output=0.006906, ref
+180, my output=0.006662, ref
+181, my output=0.005346, ref
+182, my output=0.003518, ref
+183, my output=0.002889, ref
+184, my output=0.002990, ref
+185, my output=0.003118, ref
+186, my output=0.003259, ref
+187, my output=0.003488, ref
+188, my output=0.002494, ref
+189, my output=0.002389, ref
+190, my output=0.002115, ref
+191, my output=0.001487, ref
+192, my output=0.001644, ref
+193, my output=0.001076, ref
+194, my output=0.001375, ref
+195, my output=0.001288, ref
+196, my output=0.000641, ref
+197, my output=0.000760, ref
+198, my output=0.000775, ref
+199, my output=0.000398, ref
+200, my output=0.001684, ref
+201, my output=0.003894, ref
+202, my output=0.004127, ref
+203, my output=0.003587, ref
+204, my output=0.002983, ref
+205, my output=0.003012, ref
+206, my output=0.002883, ref
+207, my output=0.001623, ref
+208, my output=-0.001633, ref
+209, my output=-0.004822, ref
+210, my output=-0.004656, ref
+211, my output=-0.003994, ref
+212, my output=-0.003876, ref
+213, my output=-0.004109, ref
+214, my output=-0.004725, ref
+215, my output=-0.004039, ref
+216, my output=-0.000188, ref
+217, my output=0.001231, ref
+218, my output=-0.001967, ref
+219, my output=-0.003578, ref
+220, my output=-0.003903, ref
+221, my output=-0.003785, ref
+222, my output=-0.003475, ref
+223, my output=-0.002795, ref
+224, my output=-0.002439, ref
+225, my output=-0.002493, ref
+226, my output=-0.001667, ref
+227, my output=0.000779, ref
+228, my output=0.003323, ref
+229, my output=0.003072, ref
+230, my output=0.003252, ref
+231, my output=0.003301, ref
+232, my output=0.002835, ref
+233, my output=0.002812, ref
+234, my output=0.002293, ref
+235, my output=0.002373, ref
+236, my output=0.002266, ref
+237, my output=0.001347, ref
+238, my output=-0.000551, ref
+239, my output=-0.000079, ref
+240, my output=0.000938, ref
+241, my output=0.000903, ref
+242, my output=0.001551, ref
+243, my output=0.000445, ref
+244, my output=-0.002564, ref
+245, my output=-0.005829, ref
+246, my output=-0.006048, ref
+247, my output=-0.005686, ref
+248, my output=-0.005304, ref
+249, my output=-0.005248, ref
+250, my output=-0.006074, ref
+251, my output=-0.004651, ref
+252, my output=-0.004030, ref
+253, my output=-0.004927, ref
+254, my output=-0.004349, ref
+255, my output=-0.002178, ref
+I am Success 
+Done Success
+@I [SIM-1] CSim done with 0 errors.
+@I [LIC-101] Checked in feature [VIVADO_HLS]

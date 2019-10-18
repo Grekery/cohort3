@@ -1,0 +1,11 @@
+<block>
+  <name>Xilly write 32</name>
+  <key>xillybus_xilly_write_32</key>
+  <category>XILLYBUS</category>
+  <import>import xillybus</import>
+  <make>xillybus.xilly_write_32()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+</block>

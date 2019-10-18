@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegr_1_1xillybus" kind="namespace">
+    <compoundname>gr::xillybus</compoundname>
+    <innerclass refid="classgr_1_1xillybus_1_1xilly__read__32" prot="public">gr::xillybus::xilly_read_32</innerclass>
+    <innerclass refid="classgr_1_1xillybus_1_1xilly__write__32" prot="public">gr::xillybus::xilly_write_32</innerclass>
+    <innerclass refid="classgr_1_1xillybus_1_1xilly__read__32__impl" prot="public">gr::xillybus::xilly_read_32_impl</innerclass>
+    <innerclass refid="classgr_1_1xillybus_1_1xilly__write__32__impl" prot="public">gr::xillybus::xilly_write_32_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/Desktop/gr-xillybus/gr-xillybus/include/xillybus/xilly_read_32.h" line="29"/>
+  </compounddef>
+</doxygen>

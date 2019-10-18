@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_a1337fcc162198d5a51c55e5cea1b69f" kind="dir">
+    <compoundname>/root/Desktop/gr-xillybus/gr-xillybus/include/xillybus/</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="xilly__read__32_8h">xilly_read_32.h</innerfile>
+    <innerfile refid="xilly__write__32_8h">xilly_write_32.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/Desktop/gr-xillybus/gr-xillybus/include/xillybus/"/>
+  </compounddef>
+</doxygen>
